@@ -1,0 +1,27 @@
+/*
+  "elementShorthand": {
+    "displayName": "Displayed Name",
+	"affects": [".affected_classes", "#or_ids"],
+    "options": [{"css-name", "Displayed Name", "input/type", ["text|applied_code", "input"]}]
+    "parent": "parent_id_or_'main'_for_main_section"
+  }
+  Parents only have "parent" and "displayName"
+*/
+{
+  "uiButtons": {
+    "displayName": "UI Buttons",
+    "parent": "main"
+  }
+  "closeButton": {
+    "displayName": "Close Button",
+    "affects": [".ui_window__head__close"],
+    "options": [{"background-color", "Background Color", "input/color"}, {"border-radius", "Corner Radius", "input/number"}]
+    "parent": "uiButtons"
+  }
+  "miniButton": {
+    "displayName": "Minimize Button",
+    "affects": [".ui_window__head__minimize"],
+    "options": [{"background-color", "Background Color", "input/color"}, {"border-radius", "Corner Radius", "input/number"}]
+    "parent": "uiButtons"
+  }
+}
