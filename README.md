@@ -12,3 +12,5 @@ It is currently in early stages of development, and may not function properly. I
 Created program, added option to change color of close button
 ### v0.1
 v0.1.0: Made program save to config file
+### v0.2
+v0.2.0: Added visual improvements, along with sections on the side which will later be used for element selection.
